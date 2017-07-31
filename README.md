@@ -46,26 +46,26 @@ The output format is a json file. The structure is taken from the old ZRH websit
 
 ```json
 {
-	'timetable':[{
-		'airportinformation': {
-			'airport_city': 'DUBLIN'
+	"timetable":[{
+		"airportinformation": {
+			"airport_city": "DUBLIN"
 		},
-		'flightcode': 'EI349',
-		'masterflight': {
-			'registration': 'EIDEN'
+		"flightcode": "EI349",
+		"masterflight": {
+			"registration": "EIDEN"
 		}, 
-		'scheduled': '20:05', 
-		'expected' : '20:20'
+		"scheduled": "20:05", 
+		"expected" : "20:20"
 	},{
-		'airportinformation': {
-			'airport_city': ''
+		"airportinformation": {
+			"airport_city": ""
 		},
-		'flightcode': '',
-		'masterflight': {
-			'registration': ''
+		"flightcode": "",
+		"masterflight": {
+			"registration": ""
 		}, 
-		'scheduled': '', 
-		'expected' : '0'
+		"scheduled": "", 
+		"expected" : "0"
 	}
 }
 
