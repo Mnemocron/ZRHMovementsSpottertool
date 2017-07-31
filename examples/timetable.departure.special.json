@@ -1,0 +1,518 @@
+{
+    "airportinformation": {
+        "airport_city": "NICE"
+    }, 
+    "expected": "", 
+    "flightcode": "NJE 005", 
+    "masterflight": {
+        "aircrafttype": "HBA", 
+        "registration": "CSDRZ"
+    }, 
+    "scheduled": "07:40"
+},{
+    "airportinformation": {
+        "airport_city": "ROM"
+    }, 
+    "expected": "", 
+    "flightcode": "NJE 508", 
+    "masterflight": {
+        "aircrafttype": "HBA", 
+        "registration": "CSDRZ"
+    }, 
+    "scheduled": "07:40"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "08:40", 
+    "flightcode": "ZRH 0005", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBPMT"
+    }, 
+    "scheduled": "08:40"
+},{
+    "airportinformation": {
+        "airport_city": "ZURICH"
+    }, 
+    "expected": "08:45", 
+    "flightcode": "ZRH 0001", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBSDL"
+    }, 
+    "scheduled": "08:45"
+},{
+    "airportinformation": {
+        "airport_city": "ZURICH"
+    }, 
+    "expected": "08:50", 
+    "flightcode": "ZRH 0004", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBPIV"
+    }, 
+    "scheduled": "08:50"
+},{
+    "airportinformation": {
+        "airport_city": "ISTANBUL"
+    }, 
+    "expected": "08:50", 
+    "flightcode": "SAZ 51", 
+    "masterflight": {
+        "aircrafttype": "CCJ", 
+        "registration": "HBJRA"
+    }, 
+    "scheduled": "08:50"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "08:55", 
+    "flightcode": "ZRH 0002", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBCHX"
+    }, 
+    "scheduled": "08:55"
+},{
+    "airportinformation": {
+        "airport_city": "ATHENS"
+    }, 
+    "expected": "09:40", 
+    "flightcode": "XXC 004", 
+    "masterflight": {
+        "aircrafttype": "CCX", 
+        "registration": "N246ZJ"
+    }, 
+    "scheduled": "09:40"
+},{
+    "airportinformation": {
+        "airport_city": "PARIS"
+    }, 
+    "expected": "", 
+    "flightcode": "NJE 609", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "CSPHI"
+    }, 
+    "scheduled": "09:45"
+},{
+    "airportinformation": {
+        "airport_city": "PALMA DE MALLORCA"
+    }, 
+    "expected": "09:45", 
+    "flightcode": "NJE 825", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "CSPHI"
+    }, 
+    "scheduled": "09:45"
+},{
+    "airportinformation": {
+        "airport_city": "BRINDISI"
+    }, 
+    "expected": "09:40", 
+    "flightcode": "SAZ 62", 
+    "masterflight": {
+        "aircrafttype": "CCJ", 
+        "registration": "HBJRB"
+    }, 
+    "scheduled": "09:50"
+},{
+    "airportinformation": {
+        "airport_city": "OSLO"
+    }, 
+    "expected": "", 
+    "flightcode": "2L 1462", 
+    "masterflight": {
+        "aircrafttype": "100", 
+        "registration": "HBJVE"
+    }, 
+    "scheduled": "10:00"
+},{
+    "airportinformation": {
+        "airport_city": "PARIS"
+    }, 
+    "expected": "", 
+    "flightcode": "NJE 131", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "CSPHI"
+    }, 
+    "scheduled": "10:00"
+},{
+    "airportinformation": {
+        "airport_city": "CORFU"
+    }, 
+    "expected": "10:00", 
+    "flightcode": "XXJ 900", 
+    "masterflight": {
+        "aircrafttype": "CNJ", 
+        "registration": "TCOYD"
+    }, 
+    "scheduled": "10:00"
+},{
+    "airportinformation": {
+        "airport_city": "LYON"
+    }, 
+    "expected": "10:30", 
+    "flightcode": "XXG 831", 
+    "masterflight": {
+        "aircrafttype": "D42", 
+        "registration": "HBLUK"
+    }, 
+    "scheduled": "10:30"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "10:40", 
+    "flightcode": "ZRH 0007", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBCYH"
+    }, 
+    "scheduled": "10:40"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "10:40", 
+    "flightcode": "ZRH 0006", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBLEM"
+    }, 
+    "scheduled": "10:40"
+},{
+    "airportinformation": {
+        "airport_city": "HAMBURG"
+    }, 
+    "expected": "11:00", 
+    "flightcode": "XXE 900", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "DIPCH"
+    }, 
+    "scheduled": "11:00"
+},{
+    "airportinformation": {
+        "airport_city": "ZURICH"
+    }, 
+    "expected": "11:00", 
+    "flightcode": "ZRH 0008", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBZKQ"
+    }, 
+    "scheduled": "11:00"
+},{
+    "airportinformation": {
+        "airport_city": "ROM"
+    }, 
+    "expected": "11:00", 
+    "flightcode": "CAZ 401", 
+    "masterflight": {
+        "aircrafttype": "DFL", 
+        "registration": "HBIGU"
+    }, 
+    "scheduled": "11:10"
+},{
+    "airportinformation": {
+        "airport_city": "PARIS"
+    }, 
+    "expected": "", 
+    "flightcode": "NJE 072", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "CSPHB"
+    }, 
+    "scheduled": "11:55"
+},{
+    "airportinformation": {
+        "airport_city": "MUNICH"
+    }, 
+    "expected": "11:55", 
+    "flightcode": "NJE 433", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "CSPHB"
+    }, 
+    "scheduled": "11:55"
+},{
+    "airportinformation": {
+        "airport_city": "GENEVA"
+    }, 
+    "expected": "12:20", 
+    "flightcode": "LX 5100", 
+    "masterflight": {
+        "aircrafttype": "CS1", 
+        "registration": "HBJBB"
+    }, 
+    "scheduled": "12:10"
+},{
+    "airportinformation": {
+        "airport_city": "CAGLIARI"
+    }, 
+    "expected": "13:15", 
+    "flightcode": "XXE 1130", 
+    "masterflight": {
+        "aircrafttype": "DFL", 
+        "registration": "OEIPW"
+    }, 
+    "scheduled": "13:30"
+},{
+    "airportinformation": {
+        "airport_city": "OLBIA"
+    }, 
+    "expected": "13:40", 
+    "flightcode": "VJT 516", 
+    "masterflight": {
+        "aircrafttype": "CCJ", 
+        "registration": "9HVFJ"
+    }, 
+    "scheduled": "13:40"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "14:45", 
+    "flightcode": "JME 404", 
+    "masterflight": {
+        "aircrafttype": "HBA", 
+        "registration": "GPROO"
+    }, 
+    "scheduled": "13:50"
+},{
+    "airportinformation": {
+        "airport_city": "CHAMB\u00c9RY"
+    }, 
+    "expected": "", 
+    "flightcode": "XXJ 301", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "FHIPE"
+    }, 
+    "scheduled": "14:10"
+},{
+    "airportinformation": {
+        "airport_city": "ZURICH"
+    }, 
+    "expected": "14:15", 
+    "flightcode": "ZRH 0012", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBZKQ"
+    }, 
+    "scheduled": "14:15"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "", 
+    "flightcode": "ZRH 0012", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBCHX"
+    }, 
+    "scheduled": "14:30"
+},{
+    "airportinformation": {
+        "airport_city": "ZURICH"
+    }, 
+    "expected": "14:30", 
+    "flightcode": "ZRH 0003", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBCKG"
+    }, 
+    "scheduled": "14:30"
+},{
+    "airportinformation": {
+        "airport_city": "ZURICH"
+    }, 
+    "expected": "14:30", 
+    "flightcode": "ZRH 0009", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBCLH"
+    }, 
+    "scheduled": "14:30"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "14:30", 
+    "flightcode": "ZRH 0011", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBCZX"
+    }, 
+    "scheduled": "14:30"
+},{
+    "airportinformation": {
+        "airport_city": "ZURICH"
+    }, 
+    "expected": "14:30", 
+    "flightcode": "ZRH 0010", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "HBPMT"
+    }, 
+    "scheduled": "14:30"
+},{
+    "airportinformation": {
+        "airport_city": "MIKONOS"
+    }, 
+    "expected": "15:05", 
+    "flightcode": "NJE 414", 
+    "masterflight": {
+        "aircrafttype": "HBA", 
+        "registration": "CSDRV"
+    }, 
+    "scheduled": "15:05"
+},{
+    "airportinformation": {
+        "airport_city": "DINARD"
+    }, 
+    "expected": "15:10", 
+    "flightcode": "AHO 968", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "DCHIC"
+    }, 
+    "scheduled": "15:10"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "15:10", 
+    "flightcode": "TF 9629", 
+    "masterflight": {
+        "aircrafttype": "ARJ", 
+        "registration": "SEDSR"
+    }, 
+    "scheduled": "15:10"
+},{
+    "airportinformation": {
+        "airport_city": "MIKONOS"
+    }, 
+    "expected": "15:15", 
+    "flightcode": "XXE 1400", 
+    "masterflight": {
+        "aircrafttype": "CCJ", 
+        "registration": "DAAAX"
+    }, 
+    "scheduled": "15:15"
+},{
+    "airportinformation": {
+        "airport_city": "NICE"
+    }, 
+    "expected": "15:30", 
+    "flightcode": "XXP 1330", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "SPCEZ"
+    }, 
+    "scheduled": "15:15"
+},{
+    "airportinformation": {
+        "airport_city": "KARLSRUHE-BADEN"
+    }, 
+    "expected": "", 
+    "flightcode": "BVR 777", 
+    "masterflight": {
+        "aircrafttype": "DFL", 
+        "registration": "DBIKA"
+    }, 
+    "scheduled": "16:00"
+},{
+    "airportinformation": {
+        "airport_city": "GY\u00d6R-PER"
+    }, 
+    "expected": "16:10", 
+    "flightcode": "2L 1136", 
+    "masterflight": {
+        "aircrafttype": "100", 
+        "registration": "HBJVE"
+    }, 
+    "scheduled": "16:10"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "16:30", 
+    "flightcode": "XXE 1240", 
+    "masterflight": {
+        "aircrafttype": "DFL", 
+        "registration": "DASBG"
+    }, 
+    "scheduled": "16:30"
+},{
+    "airportinformation": {
+        "airport_city": "NICE"
+    }, 
+    "expected": "17:00", 
+    "flightcode": "AZE 007", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "DIAAB"
+    }, 
+    "scheduled": "16:55"
+},{
+    "airportinformation": {
+        "airport_city": "PARIS"
+    }, 
+    "expected": "", 
+    "flightcode": "NJE 618", 
+    "masterflight": {
+        "aircrafttype": "CNJ", 
+        "registration": "CSDXX"
+    }, 
+    "scheduled": "18:05"
+},{
+    "airportinformation": {
+        "airport_city": "FRIEDRICHSHAFEN"
+    }, 
+    "expected": "18:30", 
+    "flightcode": "XXJ 1330", 
+    "masterflight": {
+        "aircrafttype": "EPH", 
+        "registration": "DIDAS"
+    }, 
+    "scheduled": "18:30"
+},{
+    "airportinformation": {
+        "airport_city": ""
+    }, 
+    "expected": "18:45", 
+    "flightcode": "XXJ 1630", 
+    "masterflight": {
+        "aircrafttype": "BEC", 
+        "registration": "N537EM"
+    }, 
+    "scheduled": "18:45"
+},{
+    "airportinformation": {
+        "airport_city": "COLOGNE"
+    }, 
+    "expected": "19:00", 
+    "flightcode": "STQ 111", 
+    "masterflight": {
+        "aircrafttype": "UNK", 
+        "registration": "DIAKN"
+    }, 
+    "scheduled": "19:00"
+},{
+    "airportinformation": {
+        "airport_city": "CHANIA"
+    }, 
+    "expected": "23:05", 
+    "flightcode": "SAZ 53", 
+    "masterflight": {
+        "aircrafttype": "CCJ", 
+        "registration": "HBJRA"
+    }, 
+    "scheduled": "23:05"
+},{"null":"null"}]}

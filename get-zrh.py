@@ -5,7 +5,8 @@
 @file 			get-zrh.py
 @brief 			download arrivals and departures from ZRH (Airport Zurich)
 @author 		Simon Burkhardt - simonmartin.ch - github.com/mnemocron
-@date 			2017-07-14
+@author 					    - dxmek.ch - github.com/dxmek
+@date 			2017-08-01
 @description 	made for use with Python 2.7.9
 
 @bug 			It seems like the last few flights appear twice in all the files.
@@ -53,7 +54,7 @@ try:
 	import sys 						# args
 	import os 						# files, directories
 	import datetime 				# time formats
-	import datetime as dt
+#	import datetime as dt
 	import httplib
 	import urllib 					# urlencode strings
 	import requests					# requesting webpages
@@ -86,7 +87,8 @@ json_spotter = {}
 json_spotter ['timetable'] = []
 
 # CSV string arrays
-# Could be used to sort out the interesting flights within this script
+# Could be used to sort out the interesting flights within this script.
+# Currently used to determine wether the last flight has been fetched or not.
 flights_regular = []
 flights_spotter  = []
 
