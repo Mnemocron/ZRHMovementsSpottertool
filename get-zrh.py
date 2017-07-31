@@ -81,6 +81,7 @@ if ( opts.spt is True and opts.all is True ):
 	print('[' + bcolors.FAIL + '-' + bcolors.ENDC + '] Error: both arguments -s and -u are set.' )
 	exit(-2)
 
+# JSON objects
 json_regular = {}
 json_regular['timetable'] = []
 json_spotter = {}
@@ -103,7 +104,7 @@ headers = { 'Host': 'www.zurich-airport.com',
 		'X-Requested-With': 'XMLHttpRequest',
 		'Referer': 'https://www.zurich-airport.com/passengers-and-visitors/arrivals-and-departures/',
 		'Content-Length': '85',
-		'Cookie': 'sc_expview=0; website#lang=en; ASP.NET_SessionId=tewblvuqsehbozbq5yakat2n; __RequestVerificationToken=vIUKElZhB4SVQfWDXu2DyJAYluqyOAecVSwB5sDOniFyFMTvSZJnrZNudEVMbrRzvtLS1v2GurbyFTCScCMOME-ybd81; TS01cd1ab8=018735b6f7dff7a3e09286a67ae052f4e2011617ee8846a666a6630182514b91ee5552f129831d7f6267e740d9595f99ca9149393dae9ac848ae68b61d427320fffd9b5eb9890ba550276dd5bd9c357f6c979b7a89d7ebac45ad4fe23564114c99cdab08f117858652ebe1195e659af262baa071e0bbd6fc395fb0b81a1ebd6bfe2799de00bde795de96bab4b0a8b52993ab0995a2',
+		'Cookie': 'sc_expview=0; website#lang=en; ASP.NET_SessionId=; __RequestVerificationToken=; TS01cd1ab8=',
 		'DNT': '1',
 		'Connection': 'keep-alive' }
 
