@@ -1,12 +1,13 @@
 #!/usr/bin/python
 
 '''
-@file 			zrh-filter.py
+@file 			spotter-sort.py
 @brief 			download arrivals and departures from ZRH (Airport Zurich)
 @author 		Simon Burkhardt - simonmartin.ch - github.com/mnemocron
 @author 					    - dxmek.ch - github.com/dxmek
-@date 			2017-08-01
+@date 			2017-08-31
 @description 	made for use with Python 2.7.9
+@version		V1.1
 '''
 
 # ===== COLORS =====
@@ -48,6 +49,8 @@ try :
 		json_regular = json.load(stdFile)
 	with open(opts.spt) as sptFile:
 		json_spotter = json.load(sptFile)
+	with open("dict.json") as dictFile:
+		jsondict = json.load(dictFile)
 except :
 	print('[' + bcolors.FAIL + '-' + bcolors.ENDC + '] Error: Cannot parse json file')
 	exit(-1)
@@ -88,7 +91,18 @@ for i in range( len(json_spotter["timetable"])-1 ) :	# compare every spotter fli
 		if ( json_spotter["timetable"][i]["flightcode"].lower() == json_regular["timetable"][k]["flightcode"].lower() ) :
 			# print (str(i) + " " + json_spotter["timetable"][i]["flightcode"] + " " + json_spotter["timetable"][i]["scheduled"] + " " + json_spotter["timetable"][i]["masterflight"]["registration"] + " " + json_spotter["timetable"][i]["airportinformation"]["airport_city"] + " - EQUALS - " + str(k) + " " + json_regular["timetable"][k]["flightcode"] + " " + json_regular["timetable"][k]["scheduled"] + " " + json_regular["timetable"][k]["masterflight"]["registration"] + " " + json_regular["timetable"][k]["airportinformation"]["airport_city"])
 			is_special = 0
-			k = len(json_regular["timetable"])		# abort second loop
+			break
+			
+	# Search in DICT.JSON
+	if (send == 0) :
+	# duplicate entry -> before discarding definitely, search through special dictionary, if it contains, add it nonetheless
+
+	# search matching registration number
+	for k in range( len(jsondict["timetable"])-1 ) :
+		if ( jsonspot["timetable"][i]["masterflight"]["registration"].lower() == jsondict["timetable"][k]["masterflight"]["registration"].lower() ) :
+			send = 1 # add it since it's in special dictionary
+			break
+
 	if (is_special == 1) :
 		try :
 			if ( opts.verb is True ) :
@@ -104,4 +118,3 @@ for i in range( len(json_spotter["timetable"])-1 ) :	# compare every spotter fli
 
 # write JSON data to file
 outfile.write( json.dumps(json_special) )
-
