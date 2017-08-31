@@ -73,7 +73,7 @@ The output format is a json file. The structure is taken from the old ZRH websit
 
 ## One more example
 
-Online at [DXMEK.CH] (https://dxmek.ch/zrharr/)
+Online at (https://dxmek.ch/zrharr/)
 
 ## Dependencies
 
