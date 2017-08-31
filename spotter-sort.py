@@ -50,7 +50,7 @@ try :
 	with open(opts.spt) as sptFile:
 		json_spotter = json.load(sptFile)
 	with open("dict.json") as dictFile:
-		jsondict = json.load(dictFile)
+		json_dict = json.load(dictFile)
 except :
 	print('[' + bcolors.FAIL + '-' + bcolors.ENDC + '] Error: Cannot parse json file')
 	exit(-1)
@@ -98,9 +98,9 @@ for i in range( len(json_spotter["timetable"])-1 ) :	# compare every spotter fli
 	# duplicate entry -> before discarding definitely, search through special dictionary, if it contains, add it nonetheless
 
 	# search matching registration number
-	for k in range( len(jsondict["timetable"])-1 ) :
-		if ( jsonspot["timetable"][i]["masterflight"]["registration"].lower() == jsondict["timetable"][k]["masterflight"]["registration"].lower() ) :
-			send = 1 # add it since it's in special dictionary
+	for k in range( len(json_dict["timetable"])-1 ) :
+		if ( json_spotter["timetable"][i]["masterflight"]["registration"].lower() == json_dict["timetable"][k]["masterflight"]["registration"].lower() ) :
+			is_special = 1 # add it since it's in special dictionary
 			break
 
 	if (is_special == 1) :
