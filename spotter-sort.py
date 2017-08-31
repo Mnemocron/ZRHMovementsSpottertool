@@ -4,7 +4,7 @@
 @file 			spotter-sort.py
 @brief 			download arrivals and departures from ZRH (Airport Zurich)
 @author 		Simon Burkhardt - simonmartin.ch - github.com/mnemocron
-@author 					    - dxmek.ch - github.com/dxmek
+@author 		Dominik Kauer - dxmek.ch - github.com/dxmekch
 @date 			2017-08-31
 @description 	made for use with Python 2.7.9
 @version		V1.1
