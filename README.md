@@ -31,7 +31,7 @@ Filter out the special flights:
 
 Example:
 
-`$ spotter-sort.py -r timetable.arrival.regular.json -s timetable.spotter.json -o ./flighttables`
+`$ spotter-sort.py -r timetable.arrival.regular.json -s timetable.arrival.spotter.json -o ./flighttables`
 
 The option `-o [dir]` is used to set the output directory (not filename) of the filtered timetable.json - 
 if there is already a timetable.[x].special.json, this file will be overwritten
@@ -70,6 +70,10 @@ The output format is a json file. The structure is taken from the old ZRH websit
 }
 
 ```
+
+## One more example
+
+Online at (https://dxmek.ch/zrharr/)
 
 ## Dependencies
 
