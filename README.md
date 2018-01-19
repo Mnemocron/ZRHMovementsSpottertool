@@ -29,7 +29,7 @@ Filter out the special flights:
 
 `$ spotter-sort.py -r [regular] -s [spotter] [-o][dir] [-v]`
 
-Example:
+#### Example:
 
 `$ spotter-sort.py -r timetable.arrival.regular.json -s timetable.arrival.spotter.json -o ./flighttables`
 
@@ -66,14 +66,14 @@ The output format is a json file. The structure is taken from the old ZRH websit
 		}, 
 		"scheduled": "", 
 		"expected" : "0"
-	}
+	}]
 }
 
 ```
 
 ## One more example
 
-Online at (https://dxmek.ch/zrharr/)
+[dxmek.ch](https://dxmek.ch/zrharr/)
 
 ## Dependencies
 
