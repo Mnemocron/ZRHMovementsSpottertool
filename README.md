@@ -6,6 +6,14 @@ There multiple lists available. Both the arrivals and depatrures of regular civi
 as well as both the arrivals and departures of all available flights (including private and freight flights).
 Typically a regular list contains ~400 flights per day, while a spotter list contains ~450 flights.
 
+---
+
+## Preparation
+
+**Before you can use the `get-zrh.py` script you need to edit the headers.** The website requires the cookie parameters to be set. Open your browser and look inside the developer tools to find the cookie headers. Copy them into the `get-zrh.py` file.
+
+If the cookie headers are not set, the script will fail with ```AttributeError: 'NoneType' object has no attribute 'tbody'```.
+
 ## Usage
 
 ### Download Timetables
